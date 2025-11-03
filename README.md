@@ -49,4 +49,13 @@
 ```bash
 git clone https://github.com/Valolaga/YouTube_RAG.git
 cd YouTube_RAG
+```
+
+## 2. Install Dependencies
+```pip install -r requirements.txt```
+
+
+
+
+
 
