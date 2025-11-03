@@ -54,8 +54,35 @@ cd YouTube_RAG
 ## 2. Install Dependencies
 ```pip install -r requirements.txt```
 
+## 3. Set API Keys
+```
+export OPENAI_API_KEY="your-openai-key-here"
+# Optional: for local models
+export HUGGINGFACE_API_KEY="your-hf-key"
+```
+## 4. Run the App
+```streamlit run app.py```
+## 5. Use It!
+1. Paste a YouTube URL (e.g., https://youtu.be/dQw4w9WgXcQ)
+2. Click "Summarize & Chat"
+3. Start asking questions in the chatbox!
 
-
+## 📊 Example Usage
+```
+User: Summarize this TED Talk: https://www.youtube.com/watch?v=abc123
+🤖 AI: The speaker discusses...
+```
+```
+User: What did they say about AI ethics at minute 8?
+🤖 AI: [Retrieves exact segment] "We must ensure AI systems are aligned with human values..."
+```
+## 🎯 Use Cases
+<ul>
+  <li><span style="display:inline-block; width:20px; height:20px; border:2px solid #aaa; border-radius:5px; margin-right:8px;"></span>Students: Review lectures without rewatching.</li>
+  <li><span style="display:inline-block; width:20px; height:20px; border:2px solid #aaa; border-radius:5px; margin-right:8px;"></span>Researchers: Extract insights from talks/podcasts.</li>
+  <li><span style="display:inline-block; width:20px; height:20px; border:2px solid #aaa; border-radius:5px; margin-right:8px;"></span>Content Creators: Repurpose long-form videos.</li>
+  <li><span style="display:inline-block; width:20px; height:20px; border:2px solid #aaa; border-radius:5px; margin-right:8px;"></span>Teams: Collaborative video analysis with live Q&A.</li>
+</ul>
 
 
 
