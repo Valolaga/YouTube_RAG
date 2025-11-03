@@ -84,7 +84,37 @@ User: What did they say about AI ethics at minute 8?
   <li><span style="display:inline-block; width:20px; height:20px; border:2px solid #aaa; border-radius:5px; margin-right:8px;"></span>Teams: Collaborative video analysis with live Q&A.</li>
 </ul>
 
+## 📂 Project Structure
+```
+YouTube_RAG/
+├── app.py                  # Main Streamlit app
+├── rag_pipeline.py         # RAG logic (chunking, embedding, retrieval)
+├── utils/
+│   ├── transcript.py       # Fetch YouTube transcripts
+│   └── summarizer.py       # Summary generation
+├── assets/                 # Images, GIFs for README
+├── requirements.txt
+└── README.md
+```
+## 👥 Contributing
+We welcome contributions!
+1. Fork the repo
+2. Create your feature branch (git checkout -b feature/AmazingFeature)
+3. Commit your changes (git commit -m 'Add some AmazingFeature')
+4. Push to the branch (git push origin feature/AmazingFeature)
+5. Open a Pull Request
 
+## 🛡 License
+This project is licensed under the MIT License
 
+## ⭐ Show Your Support
+Give a ⭐ if this project helped you!
+
+## 🔗 Links
+- Live Demo (if deployed): https://your-streamlit-app.link
+- Documentation: docs/
+- Report Bug: Issues
+
+> Built with ❤️ for smarter video learning.
 
 
